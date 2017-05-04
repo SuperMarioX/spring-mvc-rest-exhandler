@@ -102,6 +102,13 @@ public class DefaultRestErrorResolver implements RestErrorResolver, MessageSourc
         this.exceptionMappings = toRestErrors(definitions);
     }
 
+
+    /**
+     * Comment by Supermario:
+     *
+     *      LOAD THE EXCEPTION STATUS DEFINITIONS INTO A MAP
+     * @return
+     */
     protected final Map<String,String> createDefaultExceptionMappingDefinitions() {
 
         Map<String,String> m = new LinkedHashMap<String, String>();
@@ -287,6 +294,11 @@ public class DefaultRestErrorResolver implements RestErrorResolver, MessageSourc
     }
 
 
+    /**
+     *
+     * @param smap
+     * @return
+     */
     protected Map<String, RestError> toRestErrors(Map<String, String> smap) {
         if (CollectionUtils.isEmpty(smap)) {
             return Collections.emptyMap();

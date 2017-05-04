@@ -62,6 +62,13 @@ import java.util.Map;
  * The map key names are customizable via setter methods (setStatusKey, setMessageKey, etc).
  *
  * @author Les Hazlewood
+ *
+ *
+ *
+ *
+ *
+ * Comments by Supermario:
+ *      Load the RestErrors info into a map which can be consumed by org.springframework.http.converter.HttpMessageConverter
  */
 public class MapRestErrorConverter implements RestErrorConverter<Map> {
 

@@ -41,6 +41,14 @@ import org.springframework.core.convert.converter.Converter;
  * @see Converter
  *
  * @author Les Hazlewood
+ *
+ *
+ *
+ *
+ *
+ * Comments by Supermario:
+ *
+ *      Interfaces to convert the RestError instance to a map which contains that instance variables
  */
 public interface RestErrorConverter<T> extends Converter<RestError, T> {
 

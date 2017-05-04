@@ -22,6 +22,15 @@ import org.springframework.web.context.request.ServletWebRequest;
  * to render a Rest error representation to the response body.
  *
  * @author Les Hazlewood
+ *
+ *
+ *
+ *
+ *
+ * Comments by Supermario:
+ *
+ *      Resolves an exception and produce a RestError instance that can be render a Rest error representation
+ *      to the RESPONSE BODY
  */
 public interface RestErrorResolver {
 

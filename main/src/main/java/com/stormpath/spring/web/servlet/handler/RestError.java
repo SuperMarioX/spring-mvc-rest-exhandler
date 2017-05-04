@@ -20,6 +20,12 @@ import org.springframework.util.ObjectUtils;
 
 /**
  * @author Les Hazlewood
+ *
+ *
+ *
+ * Comments by Supermario:
+ *      This defines the exceptions format will be outputed as the rest json.
+ *      Can be customized.
  */
 public class RestError {
 
